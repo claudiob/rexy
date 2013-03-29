@@ -1,4 +1,4 @@
 #!/usr/bin/env ruby
 
 require 'rexy'
-puts Rexy.hi(ARGV[0])
+puts Rexy.hi
