@@ -1,4 +1,4 @@
-class Hola::Translator
+class Rexy::Translator
   def initialize(language = "english")
     @language = language
   end
@@ -6,7 +6,7 @@ class Hola::Translator
   def hi
     case @language
     when "spanish"
-      "hola mundo"
+      "rexy mundo"
     when "korean"
       "anyoung ha se yo"
     else
